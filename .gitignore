@@ -1,0 +1,64 @@
+# ── Dependencias ──────────────────────────────────────────────────────────────
+node_modules/
+.npm/
+.pnp/
+.yarn/
+
+# ── Build / compilacion ────────────────────────────────────────────────────────
+dist/
+build/
+.tsbuildinfo
+
+# ── Cache y temporales ─────────────────────────────────────────────────────────
+.cache/
+.upm/
+.config/
+tmp/
+*.log
+*.log.*
+
+# ── Variables de entorno ───────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# ── Replit ────────────────────────────────────────────────────────────────────
+.replit
+replit.nix
+.local/
+
+# ── Uploads (archivos subidos por usuarios - NO van a GitHub) ──────────────────
+uploads/*
+!uploads/.gitkeep
+
+# ── Archivos multimedia pesados ────────────────────────────────────────────────
+*.mp4
+*.mp3
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wav
+*.flac
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ── Assets temporales ─────────────────────────────────────────────────────────
+attached_assets/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.git-antiguo/
